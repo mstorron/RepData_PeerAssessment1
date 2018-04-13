@@ -45,7 +45,7 @@ print(mean_steps)
 ```
 
 ```{r medianstats, echo= TRUE}
-median_steps <- mean(totalsteps$Steps, na.rm= TRUE)
+median_steps <- median(totalsteps$Steps, na.rm= TRUE)
 print(median_steps)
 
 ```

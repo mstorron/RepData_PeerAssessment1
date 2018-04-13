@@ -155,9 +155,9 @@ ggplot(data = totalsteps, aes(Steps)) + geom_histogram(binwidth=1000) +labs(x=&q
 <pre class="r"><code>mean_steps &lt;- mean(totalsteps$Steps, na.rm= TRUE)
 print(mean_steps)</code></pre>
 <pre><code>## [1] 10766.19</code></pre>
-<pre class="r"><code>median_steps &lt;- mean(totalsteps$Steps, na.rm= TRUE)
+<pre class="r"><code>median_steps &lt;- median(totalsteps$Steps, na.rm= TRUE)
 print(median_steps)</code></pre>
-<pre><code>## [1] 10766.19</code></pre>
+<pre><code>## [1] 10765</code></pre>
 </div>
 <div id="what-is-the-average-daily-activity-pattern" class="section level2">
 <h2>What is the average daily activity pattern?</h2>

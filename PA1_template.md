@@ -71,12 +71,12 @@ print(mean_steps)
 
 
 ```r
-median_steps <- mean(totalsteps$Steps, na.rm= TRUE)
+median_steps <- median(totalsteps$Steps, na.rm= TRUE)
 print(median_steps)
 ```
 
 ```
-## [1] 10766.19
+## [1] 10765
 ```
 
 ## What is the average daily activity pattern?
